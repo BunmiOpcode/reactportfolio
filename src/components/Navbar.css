@@ -1,0 +1,40 @@
+
+.logo{
+    width: 10.25rem;
+  }
+
+  nav a.nav-link{
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+    font-size: .8rem;
+  }
+
+  nav ul li{
+    text-transform: uppercase;
+  }
+
+  .navbar-nav{
+    margin-left: auto!important;
+  }
+
+  .navbar-nav > li > a{
+    /* color: var(--primary-white)!important; */
+    border-top: 0.1875rem solid var(--primary-dark);
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    font-weight: 500;
+  }
+
+  .navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem!important ;
+  }
+
+  .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid var(--primary-orange);
+  }
+
+  .navbar-nav > li > a:hover{
+    border-top: 0.1875rem solid var(--primary-orange);
+  }
